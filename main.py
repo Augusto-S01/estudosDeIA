@@ -17,6 +17,7 @@ dataset_diabetes = load_diabetes()
 print (dataset_diabetes.feature_names)
 print (dataset_diabetes.target)
 
+#copilot
 
 X_train_can, X_test_can, y_train_can, y_test_can = train_test_split(dataset_cancer.data, dataset_cancer.target, stratify=dataset_cancer.target,random_state=42)
 # X_train_can e X_test_can é um conjunto de dados de treinamento e teste para o eixo X
